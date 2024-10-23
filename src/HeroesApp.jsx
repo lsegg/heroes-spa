@@ -1,3 +1,11 @@
+import { Outlet } from "react-router-dom";
+import { NavBar } from "./ui";
+
 export const HeroesApp = () => {
-  return <h1>Heroes App</h1>;
+  return (
+    <>
+      <NavBar />
+      <Outlet />
+    </>
+  );
 };
