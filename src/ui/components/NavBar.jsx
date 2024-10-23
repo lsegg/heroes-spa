@@ -9,7 +9,7 @@ export const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/home">
+        <Link className="navbar-brand" to="/home/search">
           Heroes
         </Link>
         <div className="collapse navbar-collapse" id="navbarNav">
