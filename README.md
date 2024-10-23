@@ -10,6 +10,7 @@ Single Page Application about super heroes following the Udemy course [React: De
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming language.
 - [Jest](https://jestjs.io/) - JavaScript Testing Framework.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [React Router](https://reactrouter.com/) - React client side routing.
 - [Vite](https://vitejs.dev/) - Frontend build tool.
 
 ## Previews
