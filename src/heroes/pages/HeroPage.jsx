@@ -11,7 +11,7 @@ export const HeroPage = () => {
     navigate(-1);
   };
 
-  if (!hero) return <Navigate to="/heroes-app/home" />;
+  if (!hero) return <Navigate to="/heroes-spa/home" />;
   return (
     <div className="row mt-5">
       <div className="col-4">

@@ -25,7 +25,7 @@ export const HeroCard = ({
                 <small className="text-muted">{first_appearance}</small>
               </p>
               <Link
-                to={`/heroes-app/home/hero/${id}`}
+                to={`/heroes-spa/home/hero/${id}`}
                 className="btn btn-outline-dark"
               >
                 More info

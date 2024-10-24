@@ -7,13 +7,13 @@ export const NavBar = () => {
   const navigate = useNavigate();
   const handleLogout = () => {
     logout();
-    navigate("/heroes-app", { replace: true });
+    navigate("/heroes-spa", { replace: true });
   };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/heroes-app/home/search">
+        <Link className="navbar-brand" to="/heroes-spa/home/search">
           Heroes
         </Link>
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -22,7 +22,7 @@ export const NavBar = () => {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
-              to="/heroes-app/home/marvel"
+              to="/heroes-spa/home/marvel"
             >
               Marvel
             </NavLink>
@@ -30,7 +30,7 @@ export const NavBar = () => {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
-              to="/heroes-app/home/dc"
+              to="/heroes-spa/home/dc"
             >
               DC
             </NavLink>
@@ -38,7 +38,7 @@ export const NavBar = () => {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
-              to="/heroes-app/home/search"
+              to="/heroes-spa/home/search"
             >
               Search
             </NavLink>
