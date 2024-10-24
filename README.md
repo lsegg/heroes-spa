@@ -15,7 +15,9 @@ Single Page Application about super heroes following the Udemy course [React: De
 
 ## Features 📋
 
-- Private routes auth protection.
+- Auth protection.
+- Private and public routing.
+- Last session url memory.
 
 ## Previews 👁️
 

@@ -5,9 +5,11 @@ import { AuthContext } from "../context";
 export const LoginPage = () => {
   const { login } = useContext(AuthContext);
   const navigate = useNavigate();
+
   const handleLogin = () => {
+    const lastPath = localStorage.getItem("lastPath") || "/home/search";
     login("Jane Doe");
-    navigate("/home/search", { replace: true });
+    navigate(lastPath, { replace: true });
   };
 
   return (

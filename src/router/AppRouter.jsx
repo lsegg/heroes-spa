@@ -1,19 +1,29 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HeroesApp } from "../HeroesApp";
-import { LoginPage } from "../auth";
+import { LoginPage, ErrorPage } from "../auth";
 import { DcPage, MarvelPage, SearchPage, HeroPage } from "../heroes";
+import { PrivateRouter } from "./PrivateRouter";
+import { PublicRouter } from "./PublicRouter";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LoginPage />,
-    errorElement: <LoginPage />,
+    element: (
+      <PublicRouter>
+        <LoginPage />
+      </PublicRouter>
+    ),
+    errorElement: <ErrorPage />,
   },
   {
     path: "home",
-    element: <HeroesApp />,
-    errorElement: <LoginPage />,
+    element: (
+      <PrivateRouter>
+        <HeroesApp />
+      </PrivateRouter>
+    ),
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "marvel",
