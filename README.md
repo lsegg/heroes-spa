@@ -13,8 +13,12 @@ Single Page Application about super heroes following the Udemy course [React: De
 - [React Router](https://reactrouter.com/) - React client side routing.
 - [Vite](https://vitejs.dev/) - Frontend build tool.
 
-## Previews
+## Features 📋
+
+- Private routes auth protection.
+
+## Previews 👁️
 
 ## Requirements ⚙️
 
-A text editor like [Visual Studio Code](https://code.visualstudio.com/) and a development local server such as [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+A text editor like [Visual Studio Code](https://code.visualstudio.com/).
