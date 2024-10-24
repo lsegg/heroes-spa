@@ -9,5 +9,5 @@ export const PrivateRouter = ({ children }) => {
   const lastPath = pathname + search;
   localStorage.setItem("lastPath", lastPath);
 
-  return logged ? children : <Navigate to={"/login"} />;
+  return logged ? children : <Navigate to={"/heroes-app/login"} />;
 };

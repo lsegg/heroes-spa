@@ -8,7 +8,7 @@ import { PublicRouter } from "./PublicRouter";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/heroes-app",
     element: (
       <PublicRouter>
         <LoginPage />
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "home",
+    path: "/heroes-app/home",
     element: (
       <PrivateRouter>
         <HeroesApp />
@@ -26,19 +26,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "marvel",
+        path: "/heroes-app/home/marvel",
         element: <MarvelPage />,
       },
       {
-        path: "dc",
+        path: "/heroes-app/home/dc",
         element: <DcPage />,
       },
       {
-        path: "search",
+        path: "/heroes-app/home/search",
         element: <SearchPage />,
       },
       {
-        path: "hero/:id",
+        path: "/heroes-app/home/hero/:id",
         element: <HeroPage />,
       },
     ],
