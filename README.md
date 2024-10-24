@@ -21,6 +21,26 @@ Single Page Application about super heroes following the Udemy course [React: De
 
 ## Previews 👁️
 
+Login
+
+![login preview](https://github.com/lsegg/heroes-spa/blob/main/public/assets/login_preview.png?raw=true)
+
+Search
+
+![search preview](https://github.com/lsegg/heroes-spa/blob/main/public/assets/search_preview.png?raw=true)
+
+Marvel heroes
+
+![marvel heroes preview](https://github.com/lsegg/heroes-spa/blob/main/public/assets/marvel_preview.png?raw=true)
+
+DC heroes
+
+![dc heroes preview](https://github.com/lsegg/heroes-spa/blob/main/public/assets/dc_preview.png?raw=true)
+
+Hero info
+
+![hero info preview](https://github.com/lsegg/heroes-spa/blob/main/public/assets/hero_preview.png?raw=true)
+
 ## Requirements ⚙️
 
 A text editor like [Visual Studio Code](https://code.visualstudio.com/).
