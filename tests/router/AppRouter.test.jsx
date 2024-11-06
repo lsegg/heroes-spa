@@ -4,7 +4,7 @@ import { AuthContext } from "../../src/auth";
 // import { AppRouter } from "../../src/router/AppRouter";
 
 describe("AppRouter", () => {
-  const initialEntry = "/heroes-spa/home/search";
+  const initialEntry = "/home/search";
   test("should show login if not authenticated", () => {
     const contextValue = {
       logged: false,

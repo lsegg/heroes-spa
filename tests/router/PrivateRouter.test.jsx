@@ -15,7 +15,7 @@ describe("PublicRouter", () => {
       },
     };
 
-    const initialEntry = "/heroes-spa/home/search";
+    const initialEntry = "/home/search";
 
     render(
       <AuthContext.Provider value={contextValue}>

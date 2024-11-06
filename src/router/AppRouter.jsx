@@ -8,7 +8,7 @@ import { PublicRouter } from "./PublicRouter";
 
 const router = createHashRouter([
   {
-    path: "/heroes-spa",
+    path: "/",
     element: (
       <PublicRouter>
         <LoginPage />
@@ -17,7 +17,7 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/heroes-spa/home",
+    path: "/home",
     element: (
       <PrivateRouter>
         <HeroesApp />
@@ -26,19 +26,19 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/heroes-spa/home/marvel",
+        path: "/home/marvel",
         element: <MarvelPage />,
       },
       {
-        path: "/heroes-spa/home/dc",
+        path: "/home/dc",
         element: <DcPage />,
       },
       {
-        path: "/heroes-spa/home/search",
+        path: "/home/search",
         element: <SearchPage />,
       },
       {
-        path: "/heroes-spa/home/hero/:id",
+        path: "/home/hero/:id",
         element: <HeroPage />,
       },
     ],

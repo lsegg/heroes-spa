@@ -41,10 +41,7 @@ describe("PublicRouter", () => {
                 </PublicRouter>
               }
             />
-            <Route
-              path="/heroes-spa/home/search"
-              element={<h1>Private Route</h1>}
-            />
+            <Route path="/home/search" element={<h1>Private Route</h1>} />
           </Routes>
         </MemoryRouter>
       </AuthContext.Provider>
